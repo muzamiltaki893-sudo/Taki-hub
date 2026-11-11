@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تكي</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="login">
+  <i class="orb o1"></i><i class="orb o2"></i>
+  <form id="loginForm" class="glass">
+    <img src="assets/logo.png" class="logo" alt="تكي">
+    <h1>أهلاً بك في تكي</h1>
+    <p class="sub">تعلّم، تواصل، وتحدَّ زملاءك</p>
+    <input id="u" class="inp" placeholder="رقم المستخدم" inputmode="numeric" autocomplete="username" required>
+    <input id="p" class="inp" type="password" placeholder="كلمة المرور" autocomplete="current-password" required>
+    <p id="err" class="err"></p>
+    <button class="btn" id="go">تسجيل الدخول</button>
+    <a class="contact" href="mailto:muzamiltaki893@gmail.com">للتواصل: muzamiltaki893@gmail.com</a>
+  </form>
+  <footer>جميع الحقوق محفوظة تكي 2026©</footer>
+</section>
+
+<section id="app" hidden>
+  <header class="top"><img src="assets/logo.png" alt=""><b>تكي</b><span id="pt" class="chip">⭐ 0</span></header>
+  <main id="view"></main>
+  <nav class="nav">
+    <button data-t="feed" class="on"><i>🏠</i>الرئيسية</button>
+    <button data-t="office"><i>📚</i>المكتب</button>
+    <button data-t="add" class="plus"><i>＋</i></button>
+    <button data-t="chat"><i>💬</i>الدردشة</button>
+    <button data-t="profile"><i>👤</i>حسابي</button>
+  </nav>
+</section>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
